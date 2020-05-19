@@ -1,0 +1,136 @@
+{
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -17.15003,
+        "posY": 1.01000011,
+        "posZ": -4.78512573,
+        "rotX": -4.844037E-07,
+        "rotY": 179.999512,
+        "rotZ": 1.296641E-06,
+        "scaleX": 3.45,
+        "scaleY": 1.0,
+        "scaleZ": 3.45
+      },
+      "Nickname": "Character Rescale Base",
+      "Description": "Obj_Base",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/P3OdJXD.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 5.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "0dc7be",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": -0.00554778147,
+            "y": 0.05000026,
+            "z": -1.27773678
+          },
+          "Rotation": {
+            "x": -6.18730837E-07,
+            "y": 5.59592536E-06,
+            "z": -7.651815E-07
+          }
+        },
+        {
+          "Position": {
+            "x": -1.09902823,
+            "y": 0.0499999747,
+            "z": -0.6186757
+          },
+          "Rotation": {
+            "x": -6.18730837E-07,
+            "y": 5.59592536E-06,
+            "z": -7.651815E-07
+          }
+        },
+        {
+          "Position": {
+            "x": 1.059775,
+            "y": 0.0500004,
+            "z": -0.602807939
+          },
+          "Rotation": {
+            "x": -1.75292473E-06,
+            "y": 2.46457512E-05,
+            "z": -1.34458526E-06
+          }
+        },
+        {
+          "Position": {
+            "x": 1.073246,
+            "y": 0.05000041,
+            "z": 0.633092642
+          },
+          "Rotation": {
+            "x": -1.75292473E-06,
+            "y": 2.46457512E-05,
+            "z": -1.34458526E-06
+          }
+        },
+        {
+          "Position": {
+            "x": -0.0206186287,
+            "y": 0.05000043,
+            "z": 0.007744364
+          },
+          "Rotation": {
+            "x": -1.75292473E-06,
+            "y": 2.46457512E-05,
+            "z": -1.34458526E-06
+          }
+        },
+        {
+          "Position": {
+            "x": -1.09420037,
+            "y": 0.0500003472,
+            "z": 0.632357538
+          },
+          "Rotation": {
+            "x": -1.75292473E-06,
+            "y": 2.46457512E-05,
+            "z": -1.34458526E-06
+          }
+        },
+        {
+          "Position": {
+            "x": -0.01900904,
+            "y": -0.04886541,
+            "z": 1.26870382
+          },
+          "Rotation": {
+            "x": 1.24124335E-06,
+            "y": 2.87452235E-06,
+            "z": 1.59942363E-06
+          }
+        }
+      ]
+  }
