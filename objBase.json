@@ -38,7 +38,7 @@
         "WidthScale": 0.0,
         "CustomToken": {
           "Thickness": 0.1,
-          "MergeDistancePixels": 5.0,
+          "MergeDistancePixels": 1.0,
           "StandUp": false,
           "Stackable": false
         }
