@@ -1,5 +1,10 @@
     {
       "Name": "Custom_Token",
+      "Transform": {
+        "scaleX": 0.6835852,
+        "scaleY": 1.0,
+        "scaleZ": 0.6835852
+      },
       "Nickname": "Character Rescale Base",
       "Description": "Obj_Base",
       "GMNotes": "",
