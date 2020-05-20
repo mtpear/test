@@ -1,6 +1,12 @@
     {
       "Name": "Custom_Token",
       "Transform": {
+        "posX": -17.25,
+        "posY": 1.01000035,
+        "posZ": -4.76313972,
+        "rotX": 4.50052357E-06,
+        "rotY": 180.001312,
+        "rotZ": 4.25686358E-06,
         "scaleX": 0.6835852,
         "scaleY": 1.0,
         "scaleZ": 0.6835852
