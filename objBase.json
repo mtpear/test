@@ -3,6 +3,11 @@
       "Nickname": "Character Rescale Base",
       "Description": "Obj_Base",
       "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
       "Locked": false,
       "Grid": true,
       "Snap": false,
@@ -27,6 +32,9 @@
           "Stackable": false
         }
       },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
       "GUID": "0dc7be",
       "AttachedSnapPoints": [
         {
