@@ -1,27 +1,11 @@
-{
+    {
       "Name": "Custom_Token",
-      "Transform": {
-        "posX": -17.15003,
-        "posY": 1.01000011,
-        "posZ": -4.78512573,
-        "rotX": -4.844037E-07,
-        "rotY": 179.999512,
-        "rotZ": 1.296641E-06,
-        "scaleX": 3.45,
-        "scaleY": 1.0,
-        "scaleZ": 3.45
-      },
       "Nickname": "Character Rescale Base",
       "Description": "Obj_Base",
       "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
       "Locked": false,
       "Grid": true,
-      "Snap": true,
+      "Snap": false,
       "IgnoreFoW": false,
       "MeasureMovement": false,
       "DragSelectable": true,
@@ -43,9 +27,6 @@
           "Stackable": false
         }
       },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
       "GUID": "0dc7be",
       "AttachedSnapPoints": [
         {
@@ -133,4 +114,4 @@
           }
         }
       ]
-  }
+    }
