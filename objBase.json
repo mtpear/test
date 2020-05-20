@@ -21,7 +21,7 @@
       },
       "Locked": false,
       "Grid": true,
-      "Snap": false,
+      "Snap": true,
       "IgnoreFoW": false,
       "MeasureMovement": false,
       "DragSelectable": true,
