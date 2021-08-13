@@ -1,0 +1,63 @@
+
+function f1()
+    if(self.hasTag("hasDistRing")) then
+        delAttach(self)
+        self.removeTag("hasDistRing")
+    else
+        local objRing = getObjectFromGUID("4c5e2c").takeObject()
+        attach(self, objRing)
+        self.addTag("hasDistRing")
+    end
+end
+
+function f2()
+    scaleRing(self,1)
+end
+
+function f3()
+    scaleRing(self,-1)
+end
+
+function f4()
+    self.clearContextMenu()
+    self.setLuaScript("")
+end
+
+function scaleRing(obj, mod)
+    if(obj.hasTag("hasDistRing")) then
+        index = getAttach(obj)
+        ring = obj.removeAttachment(index)
+        i = ring.getScale().x + (0.025*mod)
+        ring.setScale({i,i,i})
+        obj.addAttachment(ring)
+    end
+end
+
+function attach(obj, attach)
+    attach.setColorTint(obj.getColorTint())
+    attach.setPosition(obj.getPosition())
+    attach.setRotation(obj.getRotation())
+    obj.addAttachment(attach)
+end
+
+function delAttach(obj)
+    index = getAttach(obj, 1)
+    obj.destroyAttachment(index)
+end
+
+function getAttach(obj)
+    attachments = obj.getAttachments()
+    index = -1
+    if #attachments > 0 then
+        for i, att in ipairs(attachments) do
+            for y, val in ipairs(att.tags) do
+                if val == "DistRing" then
+                    index = i-1
+                    break
+                end
+            end
+        end
+    end
+
+    return index
+end
